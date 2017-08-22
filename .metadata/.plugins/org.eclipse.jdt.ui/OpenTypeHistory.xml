@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=TestSpringWithoutMaven/src&lt;TestSpring.springwithjdbc.dao{ITestDAO.java[ITestDAO" modifiers="513" timestamp="1502983697722"/>
+<typeInfo handle="=TestSpringWithoutMaven/src&lt;TestSpring.springwithhibernate.service{ITestHibernateService.java[ITestHibernateService" modifiers="513" timestamp="1503163367527"/>
+<typeInfo handle="=TestSpringWithoutMaven/src&lt;TestSpring.springwithhibernate.dao{ITestHibernateDAO.java[ITestHibernateDAO" modifiers="513" timestamp="1503163254891"/>
+<typeInfo handle="=TestSpringWithoutMaven/src&lt;TestSpring.springwithjdbc.service{ITestService.java[ITestService" modifiers="513" timestamp="1502986962501"/>
+<typeInfo handle="=TestSpringMybatis/src\/main\/java&lt;TestSpring.springwithmybatis.service{ITestService.java[ITestService" modifiers="513" timestamp="1503327743927"/>
+<typeInfo handle="=TestSpringMybatis/src\/main\/java&lt;TestSpring.springwithmybatis.service{ITestXmlService.java[ITestXmlService" modifiers="513" timestamp="1503327796951"/>
+</typeInfoHistroy>

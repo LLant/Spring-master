@@ -1,0 +1,5 @@
+package TestSpring.springwithhibernate.model;
+
+public class Account {
+
+}

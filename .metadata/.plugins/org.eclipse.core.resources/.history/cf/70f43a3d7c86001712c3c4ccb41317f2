@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="TestSpring.springwithmybatis.dao.ITestXmlDAO">
+	<select id="findAccountsById" resultType="TestSpring.springwithmybatis.model.Account">
+		<!--  在某些情况下，我们在xml中要使用大量XML敏感的字符，而我们又不希望逐一的对其进行转移。这时候使用CDATA段是最理想的。
+       1）语法格式：< ! [ CDATA ［忽略检查的文本］］>
+       2）在CDATA中将文本的内容写入，那么这段文本内容会被忽略检查，无论里面是否包含XML敏感内容，全部被当作普通的文本去看待 -->
+		<![CDATA[
+			select  id as id,
+			 name as name,
+			 money as money
+			 from account
+			 where
+			 id >= #{id}
+		]]>
+	</select>
+	<select id="getAccountById" parameterType="int" resultType="TestSpring.springwithmybatis.model.Account">
+		<![CDATA[
+			select  id as id,name as name,money as money
+			 from account
+			 where
+			id = #{id}
+		]]>
+	</select>
+	<insert id="insertAccount" parameterType="TestSpring.springwithmybatis.model.Account" 
+	keyColumn="`id`" keyProperty="`id`" useGeneratedKeys="true">
+		insert into account (name,money) values (#{name},#{money})
+	</insert>
+</mapper>

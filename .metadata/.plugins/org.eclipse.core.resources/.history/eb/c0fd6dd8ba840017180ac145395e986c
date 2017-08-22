@@ -1,0 +1,15 @@
+package TestSpring.springwithjdbc.proxy;
+
+import org.apache.log4j.Logger;
+
+public class MyProxy {
+
+	private Logger logger=Logger.getLogger(MyProxy.class);
+	
+	public void breforPerformance(){
+		logger.info("MyProxy breforPerformance().");
+	}
+	public void afterPerformance(){
+		logger.info("MyProxy afterPerformance().");
+	}
+}

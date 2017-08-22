@@ -1,0 +1,33 @@
+import javax.annotation.Resource;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import TestSpring.springwithmybatis.service.ITestService;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("classpath:applicationContextwithmybatis.xml")
+public class SpringWithMybatisTest {
+
+	@Resource(name = "testService")
+	private ITestService testService;
+
+	@Test
+	public void test() {
+		boolean b;
+		try {
+			b = testService.transfer(200, 1, 2);
+			if (b) {
+				System.out.println("转账成功");
+			} else {
+				System.out.println("转账失败");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("转账失败");
+		}
+
+	}
+}

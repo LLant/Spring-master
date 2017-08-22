@@ -1,0 +1,46 @@
+package TestSpring.springwithhibernate.dao.impl;
+
+import java.io.Serializable;
+
+import org.hibernate.SessionFactory;
+import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
+
+import TestSpring.springwithhibernate.dao.ITestHibernateDAO;
+
+public class TestHibernateDAOImpl extends HibernateDaoSupport implements ITestHibernateDAO{
+
+	public void setMySessionFactory(SessionFactory sessionFactory){
+		super.setSessionFactory(sessionFactory);
+	}
+	
+	@Override
+	public Object test() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean addMoney(int userId, float money) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean minusMoney(int userId, float money) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Serializable save(Object o) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <T> T getEntity(Class clazz, Serializable id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

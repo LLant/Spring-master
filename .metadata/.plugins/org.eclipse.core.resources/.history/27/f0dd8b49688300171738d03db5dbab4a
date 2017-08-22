@@ -1,0 +1,5 @@
+package TestSpring.springwithjdbc.service;
+
+public interface ITestService {
+
+}

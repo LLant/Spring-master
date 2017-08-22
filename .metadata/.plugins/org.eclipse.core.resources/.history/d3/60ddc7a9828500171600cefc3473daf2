@@ -1,0 +1,42 @@
+package TestSpring.springwithmybatis.service.impl;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import TestSpring.springwithjdbc.service.ITestService;
+import TestSpring.springwithmybatis.dao.ITestDAO;
+
+@Service("testService")
+public class TestServiceImpl implements ITestService {
+
+	@Autowired
+	private ITestDAO testDAO;
+	
+	@Override
+	public void test() {}
+
+	@Override
+	public boolean transfer(float money, int from, int to) throws Exception {
+		this.testDAO.minusMoney(from, money);
+		//int i = 1/0;
+		this.testDAO.addMoney(to, money);
+		return true;
+	}
+
+	@Override
+	public Map<String, Object> findById(Serializable serializable) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Map<String, Object>> findList() throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

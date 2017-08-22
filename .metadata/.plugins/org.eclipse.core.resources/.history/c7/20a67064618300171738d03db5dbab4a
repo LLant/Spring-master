@@ -1,0 +1,41 @@
+package TestSpring.springwithjdbc.dao.impl;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
+
+import TestSpring.springwithjdbc.dao.ITestDAO;
+
+public class TestDAOImpl implements ITestDAO {
+
+	@Override
+	public Object test() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean addMoney(int userId, float money) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean minusMoney(int userId, float money) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Map<String, Object> findById(Serializable serializable) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Map<String, Object>> findList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

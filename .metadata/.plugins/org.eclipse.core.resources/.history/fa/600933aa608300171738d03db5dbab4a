@@ -1,0 +1,5 @@
+package TestSpring.springwithjdbc.dao;
+
+public interface ITestDAO {
+
+}

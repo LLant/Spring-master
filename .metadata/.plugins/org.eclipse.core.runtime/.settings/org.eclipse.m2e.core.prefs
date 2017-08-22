@@ -1,0 +1,7 @@
+eclipse.m2.defaultRuntime=apache-maven
+eclipse.m2.downloadJavadoc=true
+eclipse.m2.downloadSources=true
+eclipse.m2.runtimes=apache-maven
+eclipse.m2.runtimesNodes/apache-maven/location=D\:\\Program Files\\apache-maven\\apache-maven-3.5.0
+eclipse.m2.runtimesNodes/apache-maven/type=EXTERNAL
+eclipse.preferences.version=1

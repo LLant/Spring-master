@@ -1,0 +1,10 @@
+package TestSpring.springwithjdbc.proxy;
+
+import org.apache.log4j.Logger;
+
+public class MyProxy {
+
+	private Logger logger=Logger.getLogger(MyProxy.class);
+	
+	
+}

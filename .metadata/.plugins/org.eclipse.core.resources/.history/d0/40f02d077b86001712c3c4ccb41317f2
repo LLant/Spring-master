@@ -1,0 +1,5 @@
+package TestSpring.springwithmybatis.dao;
+
+public interface ITestXmlDAO {
+
+}

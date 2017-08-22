@@ -1,0 +1,33 @@
+import javax.annotation.Resource;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import TestSpring.springwithhibernate.service.ITestHibernateService;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("classpath:applicationContextwithhibernate.xml")
+public class SpringWithHibernateTest {
+
+	@Resource(name = "testHibernateService")
+	private ITestHibernateService testHibernateService;
+
+	@Test
+	public void testTransation() {
+		boolean b;
+		try {
+			b = testHibernateService.transfer(200, 1, 2);
+			if (b) {
+				System.out.println("转账成功");
+			} else {
+				System.out.println("转账失败");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("转账失败");
+		}
+	}
+}

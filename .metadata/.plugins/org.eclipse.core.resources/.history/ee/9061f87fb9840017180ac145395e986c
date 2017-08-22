@@ -1,0 +1,5 @@
+package TestSpring.springwithjdbc.proxy;
+
+public class MyProxy {
+
+}

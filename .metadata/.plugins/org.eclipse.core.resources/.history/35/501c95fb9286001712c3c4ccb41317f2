@@ -1,0 +1,78 @@
+import javax.annotation.Resource;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+
+import TestSpring.springwithmybatis.model.Account;
+import TestSpring.springwithmybatis.service.ITestService;
+import TestSpring.springwithmybatis.service.ITestXmlService;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration("classpath:spring-mybatis.xml")
+public class SpringWithMybatisTest {
+
+	@Resource(name = "testService")
+	private ITestService testService;
+	@Resource(name = "testXmlService")
+	private ITestXmlService testXmlService;
+
+	@Test
+	public void test() {
+		boolean b;
+		try {
+			b = testService.transfer(200, 1, 2);
+			if (b) {
+				System.out.println("转账成功");
+			} else {
+				System.out.println("转账失败");
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("转账失败");
+		}
+	}
+
+	@Test
+	public void testInsert() {
+
+		Account account = new Account();
+		account.setMoney(1000);
+		account.setName("kael");
+		try {
+			int id = testService.insertAccount(account);
+			System.out.println("===============================" + id);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Test
+	public void testXmlInsert() {
+
+		Account account = new Account();
+		account.setMoney(1000);
+		account.setName("小小1");
+		try {
+			int id = testXmlService.insertAccount(account);
+			System.out.println("===============================" + id);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	@Test
+	public void testFind(){
+		
+		try {
+			Account account = testService.findAccountById(3);
+			System.out.println(account);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

@@ -1,0 +1,5 @@
+package TestSpring.springwithmybatis.controller;
+
+public class TestController {
+
+}

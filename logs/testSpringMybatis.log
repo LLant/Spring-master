@@ -1,0 +1,94 @@
+2017-8-22 01:01:42[ INFO](AbstractTestContextBootstrapper.java:256) Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-8-22 01:01:42[ INFO](AbstractTestContextBootstrapper.java:182) Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13c78c0b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12843fce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3dd3bcd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@97e1986, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26f67b76]
+2017-8-22 01:01:42[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-8-22 01:01:43[ INFO](AbstractApplicationContext.java:510) Refreshing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:01:43 CST 2017]; root of context hierarchy
+2017-8-22 01:01:43[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [jdbc.properties]
+2017-8-22 01:01:43[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [druid.properties]
+2017-8-22 01:01:44[ INFO](EhCacheManagerFactoryBean.java:129) Initializing EhCache CacheManager
+2017-8-22 01:01:45[ INFO](MyProxy.java:12) MyProxy breforPerformance().
+2017-8-22 01:01:45[ INFO](MyProxy.java:26) ------------------------------before excute method,method name is:'TestSpring.springwithmybatis.service.impl.TestServiceImpl.transfer'
+2017-8-22 01:01:47[ INFO](DruidDataSource.java:456) {dataSource-1} inited
+2017-8-22 01:01:47[ INFO](MyProxy.java:29) ------------------------------after excute method
+2017-8-22 01:01:47[ INFO](MyProxy.java:16) MyProxy afterPerformance().
+2017-8-22 01:01:47[ INFO](AbstractApplicationContext.java:862) Closing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:01:43 CST 2017]; root of context hierarchy
+2017-8-22 01:01:47[ INFO](EhCacheManagerFactoryBean.java:181) Shutting down EhCache CacheManager
+2017-8-22 01:01:47[ INFO](DruidDataSource.java:1050) {dataSource-1} closed
+2017-8-22 01:03:35[ INFO](AbstractTestContextBootstrapper.java:256) Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-8-22 01:03:35[ INFO](AbstractTestContextBootstrapper.java:182) Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13c78c0b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12843fce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3dd3bcd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@97e1986, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26f67b76]
+2017-8-22 01:03:35[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-8-22 01:03:36[ INFO](AbstractApplicationContext.java:510) Refreshing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:03:36 CST 2017]; root of context hierarchy
+2017-8-22 01:03:36[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [jdbc.properties]
+2017-8-22 01:03:36[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [druid.properties]
+2017-8-22 01:03:37[ INFO](EhCacheManagerFactoryBean.java:129) Initializing EhCache CacheManager
+2017-8-22 01:03:38[ INFO](MyProxy.java:12) MyProxy breforPerformance().
+2017-8-22 01:03:38[ INFO](MyProxy.java:26) ------------------------------before excute method,method name is:'TestSpring.springwithmybatis.service.impl.TestServiceImpl.insertAccount'
+2017-8-22 01:03:39[ INFO](DruidDataSource.java:456) {dataSource-1} inited
+2017-8-22 01:03:39[ INFO](MyProxy.java:29) ------------------------------after excute method
+2017-8-22 01:03:39[ INFO](MyProxy.java:16) MyProxy afterPerformance().
+2017-8-22 01:03:39[ INFO](AbstractApplicationContext.java:862) Closing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:03:36 CST 2017]; root of context hierarchy
+2017-8-22 01:03:39[ INFO](EhCacheManagerFactoryBean.java:181) Shutting down EhCache CacheManager
+2017-8-22 01:03:39[ INFO](DruidDataSource.java:1050) {dataSource-1} closed
+2017-8-22 01:04:11[ INFO](AbstractTestContextBootstrapper.java:256) Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-8-22 01:04:11[ INFO](AbstractTestContextBootstrapper.java:182) Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13c78c0b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12843fce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3dd3bcd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@97e1986, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26f67b76]
+2017-8-22 01:04:11[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-8-22 01:04:11[ INFO](AbstractApplicationContext.java:510) Refreshing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:04:11 CST 2017]; root of context hierarchy
+2017-8-22 01:04:12[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [jdbc.properties]
+2017-8-22 01:04:12[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [druid.properties]
+2017-8-22 01:04:13[ INFO](EhCacheManagerFactoryBean.java:129) Initializing EhCache CacheManager
+2017-8-22 01:04:14[ INFO](MyProxy.java:12) MyProxy breforPerformance().
+2017-8-22 01:04:14[ INFO](MyProxy.java:26) ------------------------------before excute method,method name is:'TestSpring.springwithmybatis.service.impl.TestXmlServiceImpl.insertAccount'
+2017-8-22 01:04:15[ INFO](DruidDataSource.java:456) {dataSource-1} inited
+2017-8-22 01:04:15[ INFO](MyProxy.java:29) ------------------------------after excute method
+2017-8-22 01:04:15[ INFO](MyProxy.java:16) MyProxy afterPerformance().
+2017-8-22 01:04:15[ INFO](AbstractApplicationContext.java:862) Closing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:04:11 CST 2017]; root of context hierarchy
+2017-8-22 01:04:15[ INFO](EhCacheManagerFactoryBean.java:181) Shutting down EhCache CacheManager
+2017-8-22 01:04:15[ INFO](DruidDataSource.java:1050) {dataSource-1} closed
+2017-8-22 01:05:19[ INFO](AbstractTestContextBootstrapper.java:256) Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-8-22 01:05:19[ INFO](AbstractTestContextBootstrapper.java:182) Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13c78c0b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12843fce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3dd3bcd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@97e1986, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26f67b76]
+2017-8-22 01:05:19[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-8-22 01:05:20[ INFO](AbstractApplicationContext.java:510) Refreshing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:05:19 CST 2017]; root of context hierarchy
+2017-8-22 01:05:20[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [jdbc.properties]
+2017-8-22 01:05:20[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [druid.properties]
+2017-8-22 01:05:21[ INFO](EhCacheManagerFactoryBean.java:129) Initializing EhCache CacheManager
+2017-8-22 01:05:22[ INFO](MyProxy.java:12) MyProxy breforPerformance().
+2017-8-22 01:05:22[ INFO](MyProxy.java:26) ------------------------------before excute method,method name is:'TestSpring.springwithmybatis.service.impl.TestServiceImpl.findAccountById'
+2017-8-22 01:05:23[ INFO](DruidDataSource.java:456) {dataSource-1} inited
+2017-8-22 01:05:23[ INFO](MyProxy.java:29) ------------------------------after excute method
+2017-8-22 01:05:23[ INFO](MyProxy.java:16) MyProxy afterPerformance().
+2017-8-22 01:05:23[ INFO](AbstractApplicationContext.java:862) Closing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:05:19 CST 2017]; root of context hierarchy
+2017-8-22 01:05:23[ INFO](EhCacheManagerFactoryBean.java:181) Shutting down EhCache CacheManager
+2017-8-22 01:05:24[ INFO](DruidDataSource.java:1050) {dataSource-1} closed
+2017-8-22 01:05:56[ INFO](AbstractTestContextBootstrapper.java:256) Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-8-22 01:05:56[ INFO](AbstractTestContextBootstrapper.java:182) Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13c78c0b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12843fce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3dd3bcd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@97e1986, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26f67b76]
+2017-8-22 01:05:56[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-8-22 01:05:57[ INFO](AbstractApplicationContext.java:510) Refreshing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:05:57 CST 2017]; root of context hierarchy
+2017-8-22 01:05:57[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [jdbc.properties]
+2017-8-22 01:05:57[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [druid.properties]
+2017-8-22 01:05:58[ INFO](EhCacheManagerFactoryBean.java:129) Initializing EhCache CacheManager
+2017-8-22 01:05:59[ INFO](MyProxy.java:12) MyProxy breforPerformance().
+2017-8-22 01:05:59[ INFO](MyProxy.java:26) ------------------------------before excute method,method name is:'TestSpring.springwithmybatis.service.impl.TestServiceImpl.findAccountsById'
+2017-8-22 01:06:00[ INFO](DruidDataSource.java:456) {dataSource-1} inited
+2017-8-22 01:06:01[ INFO](MyProxy.java:29) ------------------------------after excute method
+2017-8-22 01:06:01[ INFO](MyProxy.java:16) MyProxy afterPerformance().
+2017-8-22 01:06:01[ INFO](AbstractApplicationContext.java:862) Closing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:05:57 CST 2017]; root of context hierarchy
+2017-8-22 01:06:01[ INFO](EhCacheManagerFactoryBean.java:181) Shutting down EhCache CacheManager
+2017-8-22 01:06:01[ INFO](DruidDataSource.java:1050) {dataSource-1} closed
+2017-8-22 01:06:13[ INFO](AbstractTestContextBootstrapper.java:256) Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2017-8-22 01:06:13[ INFO](AbstractTestContextBootstrapper.java:182) Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@13c78c0b, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@12843fce, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3dd3bcd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@97e1986, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@26f67b76]
+2017-8-22 01:06:13[ INFO](XmlBeanDefinitionReader.java:317) Loading XML bean definitions from class path resource [spring-mybatis.xml]
+2017-8-22 01:06:13[ INFO](AbstractApplicationContext.java:510) Refreshing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:06:13 CST 2017]; root of context hierarchy
+2017-8-22 01:06:14[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [jdbc.properties]
+2017-8-22 01:06:14[ INFO](PropertiesLoaderSupport.java:172) Loading properties file from class path resource [druid.properties]
+2017-8-22 01:06:15[ INFO](EhCacheManagerFactoryBean.java:129) Initializing EhCache CacheManager
+2017-8-22 01:06:16[ INFO](MyProxy.java:12) MyProxy breforPerformance().
+2017-8-22 01:06:16[ INFO](MyProxy.java:26) ------------------------------before excute method,method name is:'TestSpring.springwithmybatis.service.impl.TestXmlServiceImpl.findAccountById'
+2017-8-22 01:06:17[ INFO](DruidDataSource.java:456) {dataSource-1} inited
+2017-8-22 01:06:17[ INFO](MyProxy.java:29) ------------------------------after excute method
+2017-8-22 01:06:17[ INFO](MyProxy.java:16) MyProxy afterPerformance().
+2017-8-22 01:06:17[ INFO](MyProxy.java:12) MyProxy breforPerformance().
+2017-8-22 01:06:17[ INFO](MyProxy.java:26) ------------------------------before excute method,method name is:'TestSpring.springwithmybatis.service.impl.TestXmlServiceImpl.findAccountById'
+2017-8-22 01:06:17[ INFO](MyProxy.java:29) ------------------------------after excute method
+2017-8-22 01:06:17[ INFO](MyProxy.java:16) MyProxy afterPerformance().
+2017-8-22 01:06:17[ INFO](AbstractApplicationContext.java:862) Closing org.springframework.context.support.GenericApplicationContext@14acaea5: startup date [Tue Aug 22 01:06:13 CST 2017]; root of context hierarchy
+2017-8-22 01:06:17[ INFO](EhCacheManagerFactoryBean.java:181) Shutting down EhCache CacheManager
+2017-8-22 01:06:17[ INFO](DruidDataSource.java:1050) {dataSource-1} closed
